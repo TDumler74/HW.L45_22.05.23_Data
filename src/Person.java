@@ -24,7 +24,6 @@ public class Person implements Comparable<Person>{
   public Person(String name,String birthday)throws ParseException {
     this.name=name;
     this.birthday=format.parse(birthday);
-
   }
 
   public String getName() {
@@ -42,7 +41,6 @@ public class Person implements Comparable<Person>{
 
   @Override
   public int compareTo(Person o) {
-
     return -birthday.compareTo(o.birthday);
   }
 
