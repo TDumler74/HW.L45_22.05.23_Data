@@ -17,6 +17,7 @@ public class Main {
     Collections.sort(person);
     System.out.println(person);
 
-
+//[John 22.05.1980, Marie 01.10.2002, Marie 01.01.2006, Marie 01.02.2005]
+//[Marie 01.01.2006, Marie 01.02.2005, Marie 01.10.2002, John 22.05.1980]
   }
 }
