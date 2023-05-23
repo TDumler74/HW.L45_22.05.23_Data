@@ -11,7 +11,6 @@
 //Альтернативная подсказка: если очень хочется вычислять возраст,
 // то можно это делать в миллисекундах с использованием getTime()!
 
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
